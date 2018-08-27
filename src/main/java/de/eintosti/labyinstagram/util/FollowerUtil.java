@@ -29,7 +29,7 @@ public class FollowerUtil {
             throw new FollowerUtilException("No connection");
         }
         String response = getResponse(connection);
-        if (response.isEmpty()) throw new FollowerUtilException("Empty response");
+        if (response.isEmpty()) throw new FollowerUtilException("Request failed");
         if (!response.contains("edge_followed_by")) throw new FollowerUtilException("Invalid response");
 
         int beginDataBlock = response.indexOf("edge_followed_by");
