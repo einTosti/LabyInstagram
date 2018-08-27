@@ -1,0 +1,16 @@
+[
+{
+  "modid": "labyinstagram",
+  "name": "LabyInstagram",
+  "description": "Shows a users instagram followers.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["einTosti"],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": ["LabyMod"]
+}
+]

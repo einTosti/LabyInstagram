@@ -1,0 +1,10 @@
+{
+  "uuid": "%uuid%",
+  "name": "LabyInstagram",
+  "mainClass": "de.eintosti.labyinstagram.LabyInstagram",
+  "description": "Shows any user's Instagram follower count",
+  "version": 1,
+  "author": "einTosti",
+  "category": 1,
+  "icon": "https://cdn.discordapp.com/attachments/483763606383624195/483765764613210112/labyinstagram_icon.png"
+}
